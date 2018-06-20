@@ -33,8 +33,9 @@ user:{};
     console.log("CRED:"+credentials);
       if(credentials.user=="Invalid User")
         this.message="Invalid credentials.. Please try again or Register to continue  ";
-      else if(credentials.username=="" || credentials.password=="")
-        this.message="Enter username and password";
+      else if(credentials.username.length <1){
+        alert("Missing username");
+      }
       else if(credentials.username=="admin")
         this.router.navigate(['user-admin']);
       else
