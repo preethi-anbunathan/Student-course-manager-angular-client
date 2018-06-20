@@ -1,0 +1,16 @@
+
+a.login:link, a.login:visited {
+  border: 2px solid darkgray;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a.login:hover, a.login:active {
+  background-color: darkgray;
+}
+
+
