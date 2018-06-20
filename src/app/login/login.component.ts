@@ -17,10 +17,10 @@ user:{};
 
   login(username, password) {
     if(username.length < 1){
-      alert('Missing Username Field')
+      alert('Missing Username Field');
     }
     else if(password.length < 1){
-      alert('Missing Password Field')
+      alert('Missing Password Field');
     }
     else {
       this.service
