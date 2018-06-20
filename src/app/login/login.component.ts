@@ -10,9 +10,9 @@ import {UserServiceClient} from "../services/user.service.client";
 export class LoginComponent implements OnInit {
 
   message: String;
+  username;
+  password;
 credentials;
-username;
-password;
 user:{};
   login(username, password) {
     console.log([username, password]);

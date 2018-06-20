@@ -22,10 +22,13 @@ export class AdminSectionControlComponent implements OnInit {
   maxSeats= "";
   seats = '';
   courseId = '';
+  course;
   sections = [];
   selectedSection :Section;
   loadSections(courseId) {
     this.courseId = courseId;
+    this.service.findCourseById(this.courseId)
+    .then(course=>this.course=course);
     this
       .service
       .findSectionsForCourse(courseId)

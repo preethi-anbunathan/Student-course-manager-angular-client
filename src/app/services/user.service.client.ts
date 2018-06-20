@@ -28,7 +28,7 @@ export class UserServiceClient {
   }
 
   profile() {
-    return fetch('https://student-coursemanager-node.herokuapp.com/api/profile/',
+    return fetch('https://student-coursemanager-node.herokuapp.com/api/profile',
       {
         credentials: 'include', // include, same-origin, *omit
       })

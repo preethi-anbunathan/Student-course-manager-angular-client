@@ -29,6 +29,7 @@ import { WhiteboardProfileComponent } from './whiteboard-profile/whiteboard-prof
 import { CourseGridProfileComponent } from './course-grid-profile/course-grid-profile.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminSectionControlComponent } from './admin-section-control/admin-section-control.component';
+import { AdminProfileComponent } from './admin-profile/admin-profile.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { AdminSectionControlComponent } from './admin-section-control/admin-sect
     WhiteboardProfileComponent,
     CourseGridProfileComponent,
     AdminComponent,
-    AdminSectionControlComponent
+    AdminSectionControlComponent,
+    AdminProfileComponent
   ],
   imports: [
     BrowserModule,

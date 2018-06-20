@@ -9,7 +9,7 @@
       <th></th>
     </tr>
     <tr >
-      <td><input [(ngModel)]="sectionName" class="form-control"
+      <td><input [(ngModel)]="sectionName" class="form-control" value="{{course.title}} Section"
                  placeholder="Name of Section" /></td>
       <td><input [(ngModel)]="maxSeats"  class="form-control"
                  placeholder="Maximum Seats" /></td>
@@ -39,5 +39,8 @@
   </table>
 </div>
 <div>
-  <a (click)="logout()">Logout</a>
+  <a (click)="logout()">Logout</a> &nbsp;
+  <a routerLink="/admin-prof">View Profile</a> &nbsp;
 </div>
+
+
