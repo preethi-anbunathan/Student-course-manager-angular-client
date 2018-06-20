@@ -25,8 +25,6 @@ import { TopicPillsComponent } from './topic-pills/topic-pills.component';
 import {TopicServiceClient} from "./services/topic.service.client";
 import {SectionServiceClient} from "./services/section.service.client";
 import {SectionListComponent} from "./section-list/section-list.component";
-import { WhiteboardProfileComponent } from './whiteboard-profile/whiteboard-profile.component';
-import { CourseGridProfileComponent } from './course-grid-profile/course-grid-profile.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminSectionControlComponent } from './admin-section-control/admin-section-control.component';
 import { AdminProfileComponent } from './admin-profile/admin-profile.component';
@@ -47,8 +45,6 @@ import { AdminProfileComponent } from './admin-profile/admin-profile.component';
     ProfileComponent,
     TopicPillsComponent,
     SectionListComponent,
-    WhiteboardProfileComponent,
-    CourseGridProfileComponent,
     AdminComponent,
     AdminSectionControlComponent,
     AdminProfileComponent
