@@ -11,6 +11,8 @@ export class LoginComponent implements OnInit {
 
   message: String;
 credentials;
+username;
+password;
 user:{};
   login(username, password) {
     console.log([username, password]);
