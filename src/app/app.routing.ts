@@ -5,14 +5,12 @@ import {LoginComponent} from "./login/login.component";
 import {RegisterComponent} from "./register/register.component";
 import {ProfileComponent} from "./profile/profile.component";
 import {SectionListComponent} from "./section-list/section-list.component";
-import {WhiteboardProfileComponent} from "./whiteboard-profile/whiteboard-profile.component";
 import {AdminComponent} from "./admin/admin.component";
 import {AdminProfileComponent} from "./admin-profile/admin-profile.component";
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: WhiteBoardComponent},
-  { path: 'home/:userId', component: WhiteboardProfileComponent},
   { path: 'user-admin', component: AdminComponent},
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
