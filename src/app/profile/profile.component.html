@@ -4,7 +4,7 @@
         <div></div>
         <h2 class="loginHeader"> Profile </h2>
         <div style="text-align: right">
-        <a (click)="logout()">Logout</a>
+          <a class="btn btn-danger" (click)="logout()"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;Logout</a>
         </div>
         <div>
           <label for="username" class="fields">Username</label>
@@ -52,14 +52,10 @@
 
         <p></p>
         <div>
-          <button (click)="update()" class="btn btn-lg btn-dark btn-block">
-            <i class="fa fa-refresh"></i>&nbsp;Update
+          <button (click)="update()" class="btn btn-lg btn-primary btn-block">
+            <i class="fa-2x fa fa-check wbdv-update"></i>&nbsp;Update
           </button>
         </div>
-        <!--<div>-->
-          <!--<a routerLink="/home" style="float: right;">Home</a>-->
-          <!--<a routerLink="/user-admin" style="float: right;">User Admin</a>-->
-        <!--</div>-->
       </div>
     </div>
   </div>
@@ -82,5 +78,5 @@
  </div>
 <br>
 <div style="text-align: center">
-  <a routerLink="/home">White Board</a>
+  <a class="btn btn-lg btn-dark margin" routerLink="/home"><i class="fas fa-home"></i>&nbsp;Home</a>
 </div>

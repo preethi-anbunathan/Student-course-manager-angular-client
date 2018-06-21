@@ -11,11 +11,10 @@
          placeholder="verify password" type="password"
          class="form-control"/>
   <button (click)="register(username, password, password2)"
-          class="btn btn-primary btn-block">
-    Register
+          class="btn btn-lg btn-dark margin"><i class="fa fa-user-plus"></i>&nbsp;Register
   </button>
 <br>
-  <a routerLink="/login">Login</a> &nbsp;
-  <a routerLink="/home">Home</a>
+  <a routerLink="/login" class="btn btn-lg btn-dark margin"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp;Login</a> &nbsp;
+  <a class="btn btn-lg btn-dark margin" routerLink="/home"><i class="fas fa-home"></i>&nbsp;Home</a>
 
 </div>
